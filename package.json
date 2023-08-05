@@ -1,13 +1,13 @@
 {
-  "name": "vscode-lean4-code-actions",
-  "displayName": "Lean 4 Code Actions",
-  "description": "Refactorings and snippets for Lean 4",
+  "name": "vscode-lean4-language-configuration",
+  "displayName": "Lean 4 Custom Language Configuration",
+  "description": "Add backticks to closing & surrounding pairs",
   "version": "1.0.0",
   "license": "MIT",
   "publisher": "dengorbachev",
   "repository": {
     "type": "github",
-    "url": "https://github.com/DenisGorbachev/vscode-lean4-code-actions"
+    "url": "https://github.com/DenisGorbachev/vscode-lean4-language-configuration"
   },
   "engines": {
     "vscode": "^1.78.0"
@@ -28,26 +28,6 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vscode-lean4-code-actions.autoImport",
-        "title": "Lean 4: Auto-import the definition under cursor",
-        "shortTitle": "Lean 4: Auto-import"
-      },
-      {
-        "command": "vscode-lean4-code-actions.moveDefinitionToNewFile",
-        "title": "Lean 4: Move definition to a new file",
-        "shortTitle": "Lean 4: Move definition"
-      },
-      {
-        "command": "vscode-lean4-code-actions.createFreewriteFile",
-        "title": "Lean 4: Create a freewrite file"
-      },
-      {
-        "command": "vscode-lean4-code-actions.convertTextToList",
-        "title": "Lean 4 Extra: Convert a text to list line-by-line"
-      }
-    ],
     "languages": [
       {
         "id": "lean4",
@@ -85,7 +65,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "lean4": "https://gitpkg.now.sh/leanprover/vscode-lean4/vscode-lean4",
     "remeda": "^1.14.0",
     "voca": "^1.4.1"
   },
