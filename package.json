@@ -26,7 +26,7 @@
   "activationEvents": [
     "onLanguage:lean4"
   ],
-  "main": "./out/extension.js",
+  "main": "./out/src/extension.js",
   "contributes": {
     "languages": [
       {
