@@ -2,7 +2,7 @@
   "name": "lean4-language-configuration",
   "displayName": "Lean 4 Custom Language Configuration",
   "description": "Add backticks to closing & surrounding pairs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "publisher": "denis-gorbachev",
   "repository": {
