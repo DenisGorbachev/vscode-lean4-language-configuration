@@ -9,5 +9,5 @@ export const languageConfiguration: LanguageConfiguration = {
       },
     },
   ],
-  'wordPattern': new RegExp('([^`~@$%^&*()\\-=+\\[{\\]}⟨⟩⦃⦄⟦⟧⟮⟯‹›\\\\|;:",/\\s]+)', 'g'),
+  'wordPattern': new RegExp('([^`~@$%^&*()\\-=+\\[{\\]}⟨⟩⦃⦄⟦⟧⟮⟯‹›<>\\\\|;:",/\\s]+)', 'g'),
 }
